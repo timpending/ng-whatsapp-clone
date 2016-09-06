@@ -1,1 +1,8 @@
-  <p>1 + 2 = {{ 2 + 1 }}</p>
+<div ng-controller='PartiesListController'>
+  <ul>
+    <li ng-repeat='party in parties'>
+      {{ party.name }}
+      <p>{{party.description}}</p>
+    </li>
+  </ul>
+</div>
