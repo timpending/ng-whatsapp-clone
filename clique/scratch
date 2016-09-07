@@ -1,0 +1,11 @@
+// .controller('GroupsController', function($scope, $reactive){
+//   'ngInject';
+//
+//   $reactive(this).attach($scope);
+//
+//   this.helpers({
+//     groups(){
+//       return Groups.find({});
+//     }
+//   })
+// });
